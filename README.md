@@ -3,7 +3,7 @@
 These examples are designed to help developers using the PolyDyne API get started. Click on an example below to view more information.
 
 ## Java
-1. [BOM Example](https://github.com/SupplyFrame/polydyne-api-example/tree/bom-example/java/bom-example)
+1. [BOM Example](https://github.com/SupplyFrame/polydyne-api-examples/tree/master/java/bom-example)
 2. Manufacter Example
 
 ## Python
