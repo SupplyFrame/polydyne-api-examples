@@ -7,7 +7,7 @@ These examples are designed to help developers using the PolyDyne API get starte
 2. [List Maunfacturers](https://github.com/SupplyFrame/polydyne-api-examples/tree/master/java/manufacturer-example)
 
 ## Python
-*Coming Soon*
+1. [Update Exchange Rates](https://github.com/SupplyFrame/polydyne-api-examples/tree/master/python/currencies-example)
 
 ## Javascript
 *Coming Soon*
