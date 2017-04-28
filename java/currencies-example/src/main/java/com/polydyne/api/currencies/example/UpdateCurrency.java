@@ -11,6 +11,7 @@ import org.json.JSONObject;
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
+import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.polydyne.api.currencies.example.model.Currency;
 
@@ -28,7 +29,7 @@ public class UpdateCurrency {
         String url = Main.OPEN_EXCHANGE_RATES_URL + "/latest.json?app_id="+Main.APP_ID;
         if(url!=null){
       
-            HttpResponse<JsonNode> rsp = HttpHelper.get(url).asJson();
+            HttpResponse<JsonNode> rsp = Unirest.get(url).asJson();
             String json = rsp.getBody().getObject().get("rates").toString();
             JSONObject jsonObject = new JSONObject(json.trim());
 
@@ -67,7 +68,7 @@ public class UpdateCurrency {
             if(currentExchangeRateMap.containsKey(key)){
                 
                 if(currentExchangeRateMap.get(key).compareTo(currencyCodeAndRateMap.get(key))!=0){
-                    // Add currencies with new exchange rates to the list
+                    // Add currencies with new exchange rates
                     Currency currency = new Currency();
                     currency.setCurrencyId(currencyCodeAndIdMap.get(key));
                     currency.setCurrencyCode(key);
