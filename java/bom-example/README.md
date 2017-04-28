@@ -9,7 +9,7 @@ This example code creates a project and populates the BOM with the assemblies an
 	java -version
 	```
 	Ensure the resulting version is at least 1.8
-2. [Download] (https://github.com/SupplyFrame/polydyne-api-examples/releases/download/v1.0/bom-example.jar) the executable jar from the repository
+2. [Download](https://github.com/SupplyFrame/polydyne-api-examples/releases/download/v1.0/bom-example.jar) the executable jar from the repository
 3. Execute the example
 
 		java \
