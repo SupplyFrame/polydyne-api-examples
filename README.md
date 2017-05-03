@@ -14,4 +14,4 @@ These examples are designed to help developers using the PolyDyne API get starte
 *Coming Soon*
 
 ## C&#35;
-*Coming Soon*
+1. [Update Exchange Rates](https://github.com/SupplyFrame/polydyne-api-examples/tree/master/c%23/currencies-example)
