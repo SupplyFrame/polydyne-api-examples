@@ -1,8 +1,5 @@
 package com.polydyne.example;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.mashape.unirest.http.Headers;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.request.GetRequest;
@@ -29,13 +26,5 @@ public class HttpHelper {
 
             e.printStackTrace();
         }
-    }
-
-    public static <T> List<List<T>> splitIntoBatches(List<T> list, int batchSize) {
-        List<List<T>> result = new ArrayList<List<T>>();
-        for (int i=0; i<list.size(); i+=batchSize) {
-            result.add(list.subList(i, Math.min(i + batchSize, list.size())));
-        }
-        return result;
     }
 }
