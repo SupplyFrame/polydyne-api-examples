@@ -4,17 +4,17 @@ import java.math.BigDecimal;
 
 public class ParsedBomLine {
 	
-	private String assemblyName; //;parent of bom ->assembly part num?
+	private String assemblyName; 
 	private String assemblyRevision;//assembly
 	private String partNumber; //part
 	private String partRevision; //part
-	private boolean subassemblyFlag; //order is key and this-b?
-	private Integer quantity; //b?
-	private String location;//b?
-	private String description;//part?
-	private String partStatus;//part?
-	private String commodity;//part? id is in part
-	private String packageType; //->packageCode?, packageId is in parts
+	private boolean subassemblyFlag; 
+	private Integer quantity; 
+	private String location;
+	private String description;//part
+	private String partStatus;//part
+	private String commodity;//part id is in part
+	private String packageType; //->packageCode, packageId is in parts
 	private String units;// part has unit ID
 	private String referencePartNumber; //part
 	private Double standardCost; //part
