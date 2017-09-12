@@ -15,3 +15,10 @@ These examples are designed to help developers using the PolyDyne API get starte
 
 ## C&#35;
 1. [Update Exchange Rates](https://github.com/SupplyFrame/polydyne-api-examples/tree/master/c%23/currencies-example)
+
+
+# Supplier API Examples
+
+## Java
+1. [Autoquoter](https://github.com/SupplyFrame/polydyne-api-examples/tree/master/java/supplier-api-autoquoter-example)
+
