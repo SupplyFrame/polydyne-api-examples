@@ -1,11 +1,9 @@
-package com.polydyne.api.bom.example.model;
+package com.supplier.api.autoquoter.example.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class BatchResponse {
-    
-    //private Long statusCode;
     
     private Object body;
 
