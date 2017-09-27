@@ -17,9 +17,7 @@ import java.util.Map;
  */
 public class Main {
 
-    // TODO: update to production URL later
-    public static String API_BASE_URL = "http://localhost:9099";
-//    public static String API_BASE_URL = "https://api.polydyne.com/v1";
+    public static String API_BASE_URL = "https://api.polydyne.com/v1";
     
     public static String USERNAME;
     public static String PASSWORD;

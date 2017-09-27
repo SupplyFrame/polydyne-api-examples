@@ -250,7 +250,7 @@ public class AssemblyPriceService {
             BigDecimal totalNRE = printAttributes(AssemblyPriceTypes.ATTRIBUTES_NRE.getAttributeType(), lvl1Key, level2Map, volumeId);
             
             // Print Total NRE
-            System.out.println("\"Total SG&A\""
+            System.out.println("\"Total NRE\""
                     + ","
                     + "," + (totalNRE == null ? "" : totalNRE.toString())
                     + ",\"\"" 
