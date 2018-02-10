@@ -10,7 +10,7 @@ public class Rfq {
     private String rfqId;
     private List<RfqPriceVolume> volumes;
     private Double moqQuantity;   
-    private Double leadTime;
+    private Double leadtime;
     private Long manufacturerId;
     private String manufacturerName;
     private String manufacturerPartNumber;
@@ -50,11 +50,11 @@ public class Rfq {
     public void setMoqQuantity(Double moqQuantity) {
         this.moqQuantity = moqQuantity;
     }
-    public Double getLeadTime() {
-        return leadTime;
+    public Double getLeadtime() {
+        return leadtime;
     }
-    public void setLeadTime(Double leadtime) {
-        this.leadTime = leadtime;
+    public void setLeadtime(Double leadtime) {
+        this.leadtime = leadtime;
     }
     public Long getManufacturerId() {
         return manufacturerId;

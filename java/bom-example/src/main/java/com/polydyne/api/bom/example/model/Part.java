@@ -38,6 +38,8 @@ public class Part {
     
     private String assemblyName; //added to have associated Id
     
+    private Double customManufacturerTargetPrice;
+    
     
 
     public Long getPartId() {
@@ -176,5 +178,13 @@ public class Part {
 
     public void setAssemblyName(String assemblyName) {
         this.assemblyName = assemblyName;
+    }
+
+    public Double getCustomManufacturerTargetPrice() {
+        return customManufacturerTargetPrice;
+    }
+
+    public void setCustomManufacturerTargetPrice(Double customManufacturerTargetPrice) {
+        this.customManufacturerTargetPrice = customManufacturerTargetPrice;
     }
 }

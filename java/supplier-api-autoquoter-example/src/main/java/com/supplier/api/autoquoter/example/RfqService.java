@@ -66,10 +66,10 @@ public class RfqService {
             }
 
 
-            if(rfq.getLeadTime()==null){
+            if(rfq.getLeadtime()==null){
                 Double autoQuotedLeadtime = autoQuoteLeadtime(rfq);
                 if(autoQuotedLeadtime!=null){
-                    newRfq.setLeadTime(autoQuotedLeadtime);
+                    newRfq.setLeadtime(autoQuotedLeadtime);
                     leadtimeQtedCount++;
                 }
                 else{
@@ -95,7 +95,7 @@ public class RfqService {
 
             // If rfq has atleast one of volume or leadtime or moq autoquoted, add to list to be updated
             if((newRfq.getVolumes()!=null && !newRfq.getVolumes().isEmpty() && newRfq.getVolumes().size()!=0) || 
-                    (newRfq.getLeadTime()!=null) || (newRfq.getMoqQuantity()!=null)){
+                    (newRfq.getLeadtime()!=null) || (newRfq.getMoqQuantity()!=null)){
 
                 newRfq.setCustomerId(rfq.getCustomerId());
                 newRfq.setProjectId(rfq.getProjectId());
